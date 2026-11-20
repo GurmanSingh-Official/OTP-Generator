@@ -5,6 +5,7 @@ import sys
 
 
 def main():
+    print_essentials()
     print("Generating OTP...")
     time.sleep(2)
     otp = generate_otp()
@@ -12,6 +13,16 @@ def main():
     print("Generated the OTP Successfully!")
     time.sleep(0.2)
     sys.exit()
+
+def print_essentials():
+    print("==========OTP GENERATOR============")
+    time.sleep(0.5)
+    print("Code Copyright:")
+    time.sleep(0.2)
+    print("Copyright (C) Gurman Singh (GurmanSingh-Official)")
+    time.sleep(0.5)
+    print("OTP Generation:")
+    time.sleep(1)
 
 def generate_otp():
     otp = []
